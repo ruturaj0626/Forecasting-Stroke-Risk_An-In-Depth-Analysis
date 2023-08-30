@@ -44,6 +44,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, please feel free to contact us at [email@example.com](mailto:ruturaj26201@gmail.com).
+For questions or feedback, please feel free to contact us at [ruturaj26201@gmail.com](mailto:ruturaj26201@gmail.com).
 
 Happy forecasting and exploring the world of stroke risk prediction!
