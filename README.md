@@ -1,3 +1,4 @@
+![Repository Cover](Forecasting-Stroke-Risk_An-In-Depth-Analysis.png)
 
 # Forecasting Stroke Risk: An In-Depth Analysis
 
