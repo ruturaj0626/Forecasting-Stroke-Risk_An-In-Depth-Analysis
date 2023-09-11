@@ -1,50 +1,60 @@
-![Repository Cover](Forecasting-Stroke-Risk_An-In-Depth-Analysis.png)
-
 # Forecasting Stroke Risk: An In-Depth Analysis
 
-Welcome to the "Forecasting Stroke Risk: An In-Depth Analysis" repository! This repository hosts a comprehensive exploration of stroke risk prediction, providing code, datasets, and interactive notebooks to help you understand and forecast stroke risk effectively.
+![Repository Cover](Forecasting-Stroke-Risk_An-In-Depth-Analysis.png)
 
-## Overview
+## Table of Contents
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Key Metrics](#key-metrics)
+- [Model Performance](#model-performance)
+- [License](#license)
 
-This repository aims to facilitate a deep understanding of stroke risk prediction through a step-by-step analysis. From preprocessing raw data to building advanced machine learning models, we've curated resources to guide you through the process.
+## Introduction
 
-## Repository Structure
+A stroke prediction model designed to assess an individual's risk of having a stroke. Stroke is a severe medical condition, and early detection can be critical for preventing or minimizing its impact. This repository provides an insightful analysis of the model's performance, evaluation metrics, and considerations for real-world applications.
 
-- `data/`: Contains the datasets used for analysis.
-- `notebooks/`: Interactive Jupyter notebooks detailing the analysis process.
-- `code/`: Implementation of various algorithms and preprocessing techniques.
-- `visualizations/`: Visual aids and plots to enhance understanding.
+## Problem Statement
 
-## Getting Started
+The primary goal of this project is to predict whether a person could be at risk of having a stroke based on various features and medical data. Stroke prediction models like this can assist medical professionals in identifying high-risk individuals and providing timely intervention and care.
 
-1. Clone this repository to your local machine using:
-## Getting Started
+## Key Metrics
 
-1. Clone this repository to your local machine using:
-git clone https://github.com/ruturaj0626/Forecasting-Stroke-Risk_An-In-Depth-Analysis.git
+When evaluating the performance of our stroke prediction model, we consider the following key metrics:
 
-2. Navigate to the cloned directory:
-cd Forecasting-Stroke-Risk_An-In-Depth-Analysis
+- **Accuracy**: The proportion of correct predictions out of all predictions.
+- **Precision**: The ability of the model to correctly identify positive cases (stroke risk) out of all positive predictions.
+- **Recall**: The ability of the model to correctly identify all actual positive cases.
+- **F1-Score**: The harmonic mean of precision and recall, providing a balance between precision and recall.
+- **Class-Specific Metrics**: Precision, recall, and F1-score for both positive (stroke) and negative (no stroke) classes.
 
-3. Explore the `notebooks/` directory to follow the analysis step-by-step.
+## Model Performance
 
-## Notebooks
+### Model 1 Metrics
 
-1. **Data Preprocessing**: Understand how raw data is cleaned, normalized, and prepared for analysis.
-2. **Feature Engineering**: Explore the process of selecting and engineering relevant features for modeling.
-3. **Model Development**: Dive into building predictive models using machine learning techniques.
-4. **Evaluation and Interpretation**: Learn how to assess model performance and interpret results.
+- **Accuracy**: 0.9421
+- **F1-Score (Class 0)**: 0.9702
+- **F1-Score (Class 1)**: 0.0
+- **Weighted Avg F1-Score**: 0.9140
 
-## Contributing
+#### Model 1 Summary
 
-Contributions to this repository are welcomed! If you find ways to enhance the analysis, correct errors, or provide additional insights, feel free to submit a pull request.
+Model 1 demonstrates a high overall accuracy but has challenges with recall for Class 1 (stroke cases).
+
+### Model 2 Metrics
+
+- **Accuracy**: 0.9481
+- **F1-Score (Class 0)**: 0.9475
+- **F1-Score (Class 1)**: 0.9487
+- **Weighted Avg F1-Score**: 0.9481
+
+#### Model 2 Summary
+
+Model 2 exhibits a well-balanced performance with improved recall for Class 1 and higher overall F1-scores compared to Model 1.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for both personal and commercial purposes. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
+---
 
-For questions or feedback, please feel free to contact us at [ruturaj26201@gmail.com](mailto:ruturaj26201@gmail.com).
-
-Happy forecasting and exploring the world of stroke risk prediction!
+Feel free to modify and expand this README.md template as needed to suit your specific project requirements. This template provides a starting point for creating an informative and mindful documentation for your GitHub repository.
