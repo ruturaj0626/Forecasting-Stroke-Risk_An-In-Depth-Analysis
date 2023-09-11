@@ -54,7 +54,3 @@ Model 2 exhibits a well-balanced performance with improved recall for Class 1 an
 ## License
 
 This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for both personal and commercial purposes. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to modify and expand this README.md template as needed to suit your specific project requirements. This template provides a starting point for creating an informative and mindful documentation for your GitHub repository.
